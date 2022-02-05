@@ -4,12 +4,16 @@
 [![Version](https://img.shields.io/cocoapods/v/R2DFlow.svg?style=flat)](https://cocoapods.org/pods/R2DFlow)
 [![License](https://img.shields.io/cocoapods/l/R2DFlow.svg?style=flat)](https://cocoapods.org/pods/R2DFlow)
 [![Platform](https://img.shields.io/cocoapods/p/R2DFlow.svg?style=flat)](https://cocoapods.org/pods/R2DFlow)
+![Release](https://img.shields.io/github/v/release/marcoboerner/R2DFlow?include_prereleases)
+
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+iOS 13.0, Swift v5.6
 
 ## Installation
 
