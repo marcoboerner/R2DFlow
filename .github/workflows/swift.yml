@@ -20,6 +20,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pods-
     - name: CocoaPod Install
+      working-directory: ./Example
       run: pod install
     - name: Build
       run: swift build -v
