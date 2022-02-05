@@ -46,4 +46,3 @@ platform :ios do
         pod_push(allow_warnings: true, verbose: true)
     end
 end
-view raw
