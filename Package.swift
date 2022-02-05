@@ -23,6 +23,8 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "R2DFlowTests",
-            dependencies: ["R2DFlow"]),
+            dependencies: ["R2DFlow"],
+            path: "./Tests"
+        )
     ]
 )
