@@ -1,5 +1,6 @@
 # R2DFlow
 
+![Github Swift CI](https://github.com/marcoboerner/R2DFlow/actions/workflows/swift.yml/badge.svg)
 [![Version](https://img.shields.io/cocoapods/v/R2DFlow.svg?style=flat)](https://cocoapods.org/pods/R2DFlow)
 [![License](https://img.shields.io/cocoapods/l/R2DFlow.svg?style=flat)](https://cocoapods.org/pods/R2DFlow)
 [![Platform](https://img.shields.io/cocoapods/p/R2DFlow.svg?style=flat)](https://cocoapods.org/pods/R2DFlow)
