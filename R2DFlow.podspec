@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'R2DFlow'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A conceptual \'made for Swift and SwiftUI\' framework as an alternative to Redux/ReSwift\'s unidirectional data flow.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_version = ['5.5', '5.6']
 
-  s.source_files = 'R2DFlow/Classes/**/*'
+  s.source_files = 'Sources/R2DFlow/Classes/**/*'
   
   # s.resource_bundles = {
   #   'R2DFlow' => ['R2DFlow/Assets/*.png']

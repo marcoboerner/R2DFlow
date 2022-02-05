@@ -10,10 +10,10 @@
 		0AF725F2F08D80A2C872A9101DCC0CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		0C8ABF437D9F041224D21A94447380A9 /* Pods-R2DFlow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D1C75EC25CF0C0E6A4A6A861304861 /* Pods-R2DFlow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		111FF5D40C568D0FD04B2F0AD094A11C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2025BE9327AEA9E300CE66CF /* R2DFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2025BE9227AEA9E300CE66CF /* R2DFlow.swift */; };
+		2025BE9827AEBB9800CE66CF /* R2DFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2025BE9527AEBB5100CE66CF /* R2DFlow.swift */; };
+		2025BE9927AEBBA100CE66CF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2025BE9427AEBB5100CE66CF /* ReplaceMe.swift */; };
 		679ED63DD5F359F838D9A7304B05B8C2 /* Pods-R2DFlow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B761E5A9BB67609AD1C7EDF829A8F /* Pods-R2DFlow_Tests-dummy.m */; };
 		9FED6E8100350D54CA3134428520315A /* Pods-R2DFlow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B01F960E298B2444E7373BFDAAFE683B /* Pods-R2DFlow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6946C28B16120D1D0FDFE5A8DAD582B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129DD52C44A2A342A165CE094AB6EF93 /* ReplaceMe.swift */; };
 		AD44B8199DA0E3423E0B29A26025B604 /* Pods-R2DFlow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E5701A2F2CE23D4DA41F3F2C667C2 /* Pods-R2DFlow_Example-dummy.m */; };
 		B815BD0F2A841F8D7595B1EF6773CB61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DEC7893CE118B167843126E3D58E1711 /* R2DFlow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99560DAD633CB1999B7F32825A2C37FE /* R2DFlow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,12 +40,12 @@
 /* Begin PBXFileReference section */
 		01ED322CA91F4982DDF5A453A9E47EC2 /* R2DFlow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = R2DFlow.modulemap; sourceTree = "<group>"; };
 		0B04F486CFEBE1E90FD5FA75C0A2937E /* R2DFlow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = R2DFlow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		129DD52C44A2A342A165CE094AB6EF93 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = R2DFlow/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		130B761E5A9BB67609AD1C7EDF829A8F /* Pods-R2DFlow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-R2DFlow_Tests-dummy.m"; sourceTree = "<group>"; };
 		13FFE98300404124F8C7848B0678FEFB /* R2DFlow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "R2DFlow-Info.plist"; sourceTree = "<group>"; };
 		18F266222DFF3B4220E4E80C6B21EB1D /* Pods-R2DFlow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-R2DFlow_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1F25FF22BE84CA439178AA8008F370A6 /* Pods-R2DFlow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-R2DFlow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2025BE9227AEA9E300CE66CF /* R2DFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R2DFlow.swift; path = R2DFlow/Classes/R2DFlow.swift; sourceTree = "<group>"; };
+		2025BE9427AEBB5100CE66CF /* ReplaceMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Sources/R2DFlow/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		2025BE9527AEBB5100CE66CF /* R2DFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R2DFlow.swift; path = Sources/R2DFlow/Classes/R2DFlow.swift; sourceTree = "<group>"; };
 		315DC792EDCEF73C83BA7FE0C1B219C8 /* Pods-R2DFlow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-R2DFlow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		35964D72136DD67C18ED847D5B355B7A /* Pods-R2DFlow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-R2DFlow_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3AA7DEDD1E6A0276B4A19FB6C0661AB5 /* Pods-R2DFlow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-R2DFlow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -125,8 +125,8 @@
 		3F127704BB6F1911670E720A520B837E /* R2DFlow */ = {
 			isa = PBXGroup;
 			children = (
-				2025BE9227AEA9E300CE66CF /* R2DFlow.swift */,
-				129DD52C44A2A342A165CE094AB6EF93 /* ReplaceMe.swift */,
+				2025BE9527AEBB5100CE66CF /* R2DFlow.swift */,
+				2025BE9427AEBB5100CE66CF /* ReplaceMe.swift */,
 				1ECC7265F8F4A7FD53F5DFF6F1C810CC /* Pod */,
 				5ABA900BA9A78011DF32D99E7E8BFB31 /* Support Files */,
 			);
@@ -320,6 +320,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					14B79EEF1023690AE0926F33B2FA7D62 = {
+						LastSwiftMigration = 1320;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -370,9 +375,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2025BE9327AEA9E300CE66CF /* R2DFlow.swift in Sources */,
+				2025BE9927AEBBA100CE66CF /* ReplaceMe.swift in Sources */,
+				2025BE9827AEBB9800CE66CF /* R2DFlow.swift in Sources */,
 				FB445AD167E981AEB6C238B78221CCEB /* R2DFlow-dummy.m in Sources */,
-				A6946C28B16120D1D0FDFE5A8DAD582B /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -544,6 +549,7 @@
 			baseConfigurationReference = 18F266222DFF3B4220E4E80C6B21EB1D /* Pods-R2DFlow_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -659,7 +665,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -675,6 +681,7 @@
 			baseConfigurationReference = 6295AA336FA2031800559A85E581995C /* Pods-R2DFlow_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -697,6 +704,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.6;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
