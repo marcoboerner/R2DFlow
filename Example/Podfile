@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'R2DFlow_Example' do
+  pod 'R2DFlow', :path => '../'
+
+  target 'R2DFlow_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
