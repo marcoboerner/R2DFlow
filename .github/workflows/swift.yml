@@ -20,7 +20,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pods-
     - name: CocoaPod Install
-      run: pod Install
+      run: pod install
     - name: Build
       run: swift build -v
     - name: Run tests
