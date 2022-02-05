@@ -1,0 +1,22 @@
+{
+  "name": "R2DFlow",
+  "version": "0.1.0",
+  "summary": "A short description of R2DFlow.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/marcoboerner/R2DFlow",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "marcoboerner": "mail@marcoboerner.com"
+  },
+  "source": {
+    "git": "https://github.com/marcoboerner/R2DFlow.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "R2DFlow/Classes/**/*"
+}

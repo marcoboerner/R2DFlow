@@ -1,0 +1,6 @@
+framework module Pods_R2DFlow_Tests {
+  umbrella header "Pods-R2DFlow_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

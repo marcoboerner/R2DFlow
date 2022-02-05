@@ -1,0 +1,16 @@
+PODS:
+  - R2DFlow (0.1.0)
+
+DEPENDENCIES:
+  - R2DFlow (from `../`)
+
+EXTERNAL SOURCES:
+  R2DFlow:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  R2DFlow: 0f6075e5d8db727fbb373ad14aed6d4c1484e427
+
+PODFILE CHECKSUM: 208954fcd9e9a19515d5ab8ba953065a02175e4a
+
+COCOAPODS: 1.11.2
