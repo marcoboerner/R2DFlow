@@ -30,6 +30,7 @@
 /* Begin PBXFileReference section */
 		0C55E14474D53D37FFB481FF /* Pods-R2DFlow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-R2DFlow_Example.release.xcconfig"; path = "Target Support Files/Pods-R2DFlow_Example/Pods-R2DFlow_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1F6C5EC739AF1972AC36206B /* Pods_R2DFlow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_R2DFlow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2025BE9F27AEF7F700CE66CF /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 		23F2006B3DC01239951AA3F5 /* Pods_R2DFlow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_R2DFlow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F4D486F4F80D325C6B1EB6 /* R2DFlow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = R2DFlow.podspec; path = ../R2DFlow.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* R2DFlow_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = R2DFlow_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +82,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				2025BE9F27AEF7F700CE66CF /* Package.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for R2DFlow */,
 				607FACE81AFB9204008FA782 /* Tests */,
