@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'R2DFlow'
-  s.version          = '0.1.7'
+  s.version          = '0.2.0'
   s.summary          = 'A conceptual \'made for Swift and SwiftUI\' framework as an alternative to Redux/ReSwift\'s unidirectional data flow.'
 
 # This description is used to generate tags and improve search results.
