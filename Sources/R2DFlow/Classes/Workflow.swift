@@ -5,6 +5,8 @@
 //  Created by Marco Boerner on 05.02.22.
 //
 
+#if os(iOS)
+
 import Foundation
 
 public protocol WorkflowAction: RawRepresentable, LabelAccessible {
@@ -26,3 +28,5 @@ public class Workflow<A: AppState>: ObservableObject {
     }
 
 }
+
+#endif

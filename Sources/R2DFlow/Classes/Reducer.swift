@@ -5,6 +5,8 @@
 //  Created by Marco Boerner on 05.02.22.
 //
 
+#if os(iOS)
+
 import Foundation
 
 protocol ReducerAction: RawRepresentable, LabelAccessible {
@@ -24,3 +26,5 @@ public class Reducer<A: AppState>: ObservableObject {
     }
 
 }
+
+#endif
