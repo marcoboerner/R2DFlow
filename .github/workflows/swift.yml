@@ -2,9 +2,9 @@ name: Swift
 
 on:
   push:
-    branches: [ main ]
+    branches: [ prerelease ]
   pull_request:
-    branches: [ main ]
+    branches: [ prerelease ]
 
 jobs:
   build:
