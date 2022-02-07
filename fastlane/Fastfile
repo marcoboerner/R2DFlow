@@ -53,7 +53,7 @@ platform :ios do
         git_add(path: podspecName)
         git_commit(path: [podspecName], message: "#{version} release")
         add_git_tag(tag: "#{version}")
-        push_to_git_remote(remote: "R2DFlow")
+        push_to_git_remote(remote: "origin")
         pod_push(allow_warnings: true, verbose: true)
     end
 end
