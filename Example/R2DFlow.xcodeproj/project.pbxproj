@@ -36,6 +36,7 @@
 		2025BEA327AF021F00CE66CF /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Gemfile; path = ../Gemfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2025BEAD27AF139300CE66CF /* PRIVATE_README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = PRIVATE_README.md; path = ../PRIVATE_README.md; sourceTree = "<group>"; };
 		2025BEB727AFE24A00CE66CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2025BEBA27B19FEE00CE66CF /* swift.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swift.yml; sourceTree = "<group>"; };
 		23F2006B3DC01239951AA3F5 /* Pods_R2DFlow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_R2DFlow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F4D486F4F80D325C6B1EB6 /* R2DFlow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = R2DFlow.podspec; path = ../R2DFlow.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* R2DFlow_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = R2DFlow_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,9 +94,19 @@
 			path = ../fastlane;
 			sourceTree = "<group>";
 		};
+		2025BEB927B19FEE00CE66CF /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				2025BEBA27B19FEE00CE66CF /* swift.yml */,
+			);
+			name = workflows;
+			path = ../.github/workflows;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				2025BEB927B19FEE00CE66CF /* workflows */,
 				2025BEAD27AF139300CE66CF /* PRIVATE_README.md */,
 				2025BEA327AF021F00CE66CF /* Gemfile */,
 				2025BEA027AF016C00CE66CF /* fastlane */,
