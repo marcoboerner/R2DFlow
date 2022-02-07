@@ -8,8 +8,9 @@ on:
 
 jobs:
   build:
-
-    runs-on: macos-latest
+    
+    runs-on: self-hosted
+    #runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -22,7 +23,11 @@ jobs:
     - name: CocoaPod Install
       working-directory: ./Example
       run: pod install
-    - name: Build
-      run: swift build -v
-    - name: Run tests
-      run: swift test -v
+    - name: Build and test
+      working-directory: ./
+      run: fastlane tests
+      
+    #- name: Build
+      #run: swift build -v
+    #- name: Run tests
+      #run: swift test -v
