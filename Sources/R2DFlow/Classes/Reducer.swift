@@ -9,19 +9,19 @@
 
 import Foundation
 
-protocol ReducerAction: RawRepresentable, LabelAccessible {
+public protocol ReducerActions: LabelAccessible {
 
 }
 
-public class Reducer<A: AppState>: ObservableObject {
+open class Reducer<A: AppState>: ObservableObject {
 
-    let state: A
+    public let state: A
 
-    func run<R: ReducerAction>(_ action: R) {
+    open func run(_ action: A.ReducerActionType) {
 
     }
 
-    init(state: A) {
+    required public init(state: A) {
         self.state = state
     }
 

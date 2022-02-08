@@ -9,20 +9,20 @@
 
 import Foundation
 
-public protocol WorkflowAction: RawRepresentable, LabelAccessible {
+public protocol WorkflowActions: LabelAccessible {
 
 }
 
-public class Workflow<A: AppState>: ObservableObject {
+open class Workflow<A: AppState>: ObservableObject {
 
-    let state: A
-    let reducer: Reducer<A>
+    public let state: A
+    public let reducer: Reducer<A>
 
-    public func run<W: WorkflowAction>(_ action: W) {
+    open func run(_ action: A.WorkflowActionType) {
 
     }
 
-    internal init(state: A) {
+    required public init(state: A) {
         self.state = state
         self.reducer = Reducer(state: state)
     }
