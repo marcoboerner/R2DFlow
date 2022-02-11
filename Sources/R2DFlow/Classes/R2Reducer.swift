@@ -13,18 +13,17 @@ public protocol R2ReducerActions: LabelAccessible {
 
 }
 
-open class R2Reducer<T: R2State>: ObservableObject {
+public protocol R2Reducer: ObservableObject {
 
-    public let state: T
+    associatedtype R2ReducerActionType: R2ReducerActions
+    associatedtype R2StateType: R2State
 
-    open func run(_ action: T.R2ReducerActionType) {
+    var state: R2StateType { get }
 
-    }
+    func run(_ action: R2ReducerActionType)
 
-    required public init(state: T) {
-        self.state = state
-    }
-
+    init(state: R2StateType)
+    
 }
 
 #endif
