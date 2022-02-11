@@ -21,6 +21,8 @@ jobs:
       with:
         ruby-version: 3.1.0
         bundler-cache: true
+      env:
+        ImageOS: macos1015
 
     - name: Setup Pods Cache
       uses: actions/cache@v2
