@@ -11,13 +11,7 @@ import Foundation
 
 public class R2DFlow {
 
-    public func doNothing() {
-
-    }
-
-    public init() {
-        
-    }
+    public init() { }
 }
 
 #endif

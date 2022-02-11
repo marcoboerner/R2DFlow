@@ -11,9 +11,9 @@
 		0C8ABF437D9F041224D21A94447380A9 /* Pods-R2DFlow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D1C75EC25CF0C0E6A4A6A861304861 /* Pods-R2DFlow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		111FF5D40C568D0FD04B2F0AD094A11C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2025BE9827AEBB9800CE66CF /* R2DFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2025BE9527AEBB5100CE66CF /* R2DFlow.swift */; };
-		2025BEB027AF15B300CE66CF /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2025BEAF27AF15B300CE66CF /* AppState.swift */; };
-		2025BEB227AF172D00CE66CF /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2025BEB127AF172D00CE66CF /* Reducer.swift */; };
-		2025BEB427AF1A6F00CE66CF /* Workflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2025BEB327AF1A6F00CE66CF /* Workflow.swift */; };
+		2025BEB027AF15B300CE66CF /* R2State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2025BEAF27AF15B300CE66CF /* R2State.swift */; };
+		2025BEB227AF172D00CE66CF /* R2Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2025BEB127AF172D00CE66CF /* R2Reducer.swift */; };
+		2025BEB427AF1A6F00CE66CF /* R2Workflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2025BEB327AF1A6F00CE66CF /* R2Workflow.swift */; };
 		2025BEB627AF1BC700CE66CF /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2025BEB527AF1BC700CE66CF /* Helper.swift */; };
 		679ED63DD5F359F838D9A7304B05B8C2 /* Pods-R2DFlow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B761E5A9BB67609AD1C7EDF829A8F /* Pods-R2DFlow_Tests-dummy.m */; };
 		9FED6E8100350D54CA3134428520315A /* Pods-R2DFlow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B01F960E298B2444E7373BFDAAFE683B /* Pods-R2DFlow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,9 +48,9 @@
 		18F266222DFF3B4220E4E80C6B21EB1D /* Pods-R2DFlow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-R2DFlow_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1F25FF22BE84CA439178AA8008F370A6 /* Pods-R2DFlow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-R2DFlow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2025BE9527AEBB5100CE66CF /* R2DFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R2DFlow.swift; path = Sources/R2DFlow/Classes/R2DFlow.swift; sourceTree = "<group>"; };
-		2025BEAF27AF15B300CE66CF /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = Sources/R2DFlow/Classes/AppState.swift; sourceTree = "<group>"; };
-		2025BEB127AF172D00CE66CF /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Reducer.swift; path = Sources/R2DFlow/Classes/Reducer.swift; sourceTree = "<group>"; };
-		2025BEB327AF1A6F00CE66CF /* Workflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Workflow.swift; path = Sources/R2DFlow/Classes/Workflow.swift; sourceTree = "<group>"; };
+		2025BEAF27AF15B300CE66CF /* R2State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = R2State.swift; path = Sources/R2DFlow/Classes/R2State.swift; sourceTree = "<group>"; };
+		2025BEB127AF172D00CE66CF /* R2Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = R2Reducer.swift; path = Sources/R2DFlow/Classes/R2Reducer.swift; sourceTree = "<group>"; };
+		2025BEB327AF1A6F00CE66CF /* R2Workflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = R2Workflow.swift; path = Sources/R2DFlow/Classes/R2Workflow.swift; sourceTree = "<group>"; };
 		2025BEB527AF1BC700CE66CF /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Sources/R2DFlow/Classes/Helper.swift; sourceTree = "<group>"; };
 		315DC792EDCEF73C83BA7FE0C1B219C8 /* Pods-R2DFlow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-R2DFlow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		35964D72136DD67C18ED847D5B355B7A /* Pods-R2DFlow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-R2DFlow_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,9 +134,9 @@
 				2025BE9527AEBB5100CE66CF /* R2DFlow.swift */,
 				1ECC7265F8F4A7FD53F5DFF6F1C810CC /* Pod */,
 				5ABA900BA9A78011DF32D99E7E8BFB31 /* Support Files */,
-				2025BEAF27AF15B300CE66CF /* AppState.swift */,
-				2025BEB127AF172D00CE66CF /* Reducer.swift */,
-				2025BEB327AF1A6F00CE66CF /* Workflow.swift */,
+				2025BEAF27AF15B300CE66CF /* R2State.swift */,
+				2025BEB127AF172D00CE66CF /* R2Reducer.swift */,
+				2025BEB327AF1A6F00CE66CF /* R2Workflow.swift */,
 				2025BEB527AF1BC700CE66CF /* Helper.swift */,
 			);
 			name = R2DFlow;
@@ -384,11 +384,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2025BEB027AF15B300CE66CF /* AppState.swift in Sources */,
+				2025BEB027AF15B300CE66CF /* R2State.swift in Sources */,
 				2025BE9827AEBB9800CE66CF /* R2DFlow.swift in Sources */,
-				2025BEB227AF172D00CE66CF /* Reducer.swift in Sources */,
+				2025BEB227AF172D00CE66CF /* R2Reducer.swift in Sources */,
 				FB445AD167E981AEB6C238B78221CCEB /* R2DFlow-dummy.m in Sources */,
-				2025BEB427AF1A6F00CE66CF /* Workflow.swift in Sources */,
+				2025BEB427AF1A6F00CE66CF /* R2Workflow.swift in Sources */,
 				2025BEB627AF1BC700CE66CF /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
