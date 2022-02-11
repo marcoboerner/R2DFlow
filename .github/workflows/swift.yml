@@ -13,21 +13,30 @@ jobs:
     #runs-on: macos-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
       with:
-          submodules: recursive
-    - uses: actions/cache@v2
+        ruby-version: 3.1.0
+        bundler-cache: true
+
+    - name: Setup Pods Cache
+      uses: actions/cache@v2
       with:
         path: Pods
         key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
         restore-keys: |
           ${{ runner.os }}-pods-
+
     - name: CocoaPod Install
       working-directory: ./Example
       run: pod install
-    - name: Build and test
+
+    - name: Build and test with Fastlane
       working-directory: ./
-      run: fastlane tests
+      run: bundle exec fastlane tests
       
     #- name: Build
       #run: swift build -v
