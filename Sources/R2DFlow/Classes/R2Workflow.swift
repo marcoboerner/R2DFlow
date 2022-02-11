@@ -13,19 +13,19 @@ public protocol R2WorkflowActions: LabelAccessible {
 
 }
 
-open class R2Workflow<T: R2State>: ObservableObject {
+public protocol R2Workflow: ObservableObject {
 
-    public let state: T
-    public let reducer: R2Reducer<T>
+    associatedtype R2WorkflowActionType: R2WorkflowActions
+    associatedtype R2StateType: R2State
+    associatedtype R2ReducerType: R2Reducer
 
-    open func run(_ action: T.R2WorkflowActionType) {
+    var state: R2StateType { get }
+    var reducer: R2ReducerType { get }
 
-    }
 
-    required public init(state: T) {
-        self.state = state
-        self.reducer = R2Reducer(state: state)
-    }
+    func run(_ action: R2WorkflowActionType)
+
+    init(state: R2StateType, reducer: R2ReducerType)
 
 }
 

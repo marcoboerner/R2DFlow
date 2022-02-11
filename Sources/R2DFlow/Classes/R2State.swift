@@ -10,8 +10,8 @@
 import Foundation
 
 public protocol R2State: ObservableObject, Equatable {
-    associatedtype R2ReducerActionType: R2ReducerActions
-    associatedtype R2WorkflowActionType: R2WorkflowActions
 }
+
+
 
 #endif
