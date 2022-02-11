@@ -16,13 +16,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 3.1.0
-        bundler-cache: true
-      env:
-        ImageOS: macos1015
+#    - name: Setup Ruby
+#      uses: ruby/setup-ruby@v1
+#      with:
+#        ruby-version: 3.1.0
+#        bundler-cache: true
+#      env:
+#        ImageOS: macos1015
 
     - name: Setup Pods Cache
       uses: actions/cache@v2
