@@ -22,7 +22,6 @@ public protocol R2Workflow: ObservableObject {
     var state: R2StateType { get }
     var reducer: R2ReducerType { get }
 
-
     func run(_ action: R2WorkflowActionType)
 
     init(state: R2StateType, reducer: R2ReducerType)

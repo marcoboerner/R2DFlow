@@ -23,7 +23,7 @@ public protocol R2Reducer: ObservableObject {
     func run(_ action: R2ReducerActionType)
 
     init(state: R2StateType)
-    
+
 }
 
 #endif
