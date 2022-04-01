@@ -1,11 +1,6 @@
 # R2DFlow
 
-![Github Swift CI](https://github.com/marcoboerner/R2DFlow/actions/workflows/swift.yml/badge.svg)
-[![Version](https://img.shields.io/cocoapods/v/R2DFlow.svg?style=flat)](https://cocoapods.org/pods/R2DFlow)
-[![License](https://img.shields.io/cocoapods/l/R2DFlow.svg?style=flat)](https://cocoapods.org/pods/R2DFlow)
-[![Platform](https://img.shields.io/cocoapods/p/R2DFlow.svg?style=flat)](https://cocoapods.org/pods/R2DFlow)
-![Release](https://img.shields.io/github/v/release/marcoboerner/R2DFlow?include_prereleases)
-
+### Work in progress. Do not yet use direclty in code. Feel free to clone locally, fork, contribute.
 
 ## Example
 
@@ -23,6 +18,8 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'R2DFlow'
 ```
+
+SPM install available too.
 
 ## Author
 
