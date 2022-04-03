@@ -42,7 +42,7 @@
 
 /* Begin PBXFileReference section */
 		01ED322CA91F4982DDF5A453A9E47EC2 /* R2DFlow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = R2DFlow.modulemap; sourceTree = "<group>"; };
-		0B04F486CFEBE1E90FD5FA75C0A2937E /* R2DFlow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = R2DFlow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0B04F486CFEBE1E90FD5FA75C0A2937E /* R2DFlow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = R2DFlow.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		130B761E5A9BB67609AD1C7EDF829A8F /* Pods-R2DFlow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-R2DFlow_Tests-dummy.m"; sourceTree = "<group>"; };
 		13FFE98300404124F8C7848B0678FEFB /* R2DFlow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "R2DFlow-Info.plist"; sourceTree = "<group>"; };
 		18F266222DFF3B4220E4E80C6B21EB1D /* Pods-R2DFlow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-R2DFlow_Example.release.xcconfig"; sourceTree = "<group>"; };
