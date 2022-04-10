@@ -89,3 +89,4 @@ fastlane/test_output
 
 iOSInjectionProject/
 PRIVATE_README.md
+.DS_Store
