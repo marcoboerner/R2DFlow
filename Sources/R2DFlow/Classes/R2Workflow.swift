@@ -9,13 +9,17 @@
 
 import Foundation
 
-public protocol R2WorkflowActions: LabelAccessible {
+public protocol R2WorkflowAction: LabelAccessible {
 
+}
+
+public protocol R2WorkflowNestedAction: LabelAccessible {
+    
 }
 
 public protocol R2Workflow: ObservableObject {
 
-    associatedtype R2WorkflowActionType: R2WorkflowActions
+    associatedtype R2WorkflowActionType: R2WorkflowAction
     associatedtype R2StateType: R2State
     associatedtype R2ReducerType: R2Reducer
 
@@ -25,7 +29,6 @@ public protocol R2Workflow: ObservableObject {
     func run(_ action: R2WorkflowActionType)
 
     init(state: R2StateType, reducer: R2ReducerType)
-
 }
 
 #endif
