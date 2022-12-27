@@ -4,7 +4,6 @@
 //
 //  Created by Marco Boerner on 15.02.22.
 //
-#if os(iOS)
 
 import Combine
 
@@ -21,5 +20,3 @@ public protocol R2Reactor {
 
     init(state: R2StateType, reducer: R2ReducerType, workflow: R2WorkflowType)
 }
-
-#endif

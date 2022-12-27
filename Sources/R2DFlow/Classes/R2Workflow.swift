@@ -5,8 +5,6 @@
 //  Created by Marco Boerner on 05.02.22.
 //
 
-#if os(iOS)
-
 import Foundation
 
 public protocol R2WorkflowAction: LabelAccessible {
@@ -30,5 +28,3 @@ public protocol R2Workflow: ObservableObject {
 
     init(state: R2StateType, reducer: R2ReducerType)
 }
-
-#endif

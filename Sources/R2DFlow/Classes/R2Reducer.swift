@@ -5,8 +5,6 @@
 //  Created by Marco Boerner on 05.02.22.
 //
 
-#if os(iOS)
-
 import Foundation
 
 public protocol R2ReducerActions: LabelAccessible {
@@ -25,5 +23,3 @@ public protocol R2Reducer: ObservableObject {
     init(state: R2StateType)
 
 }
-
-#endif
