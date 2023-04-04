@@ -11,6 +11,10 @@ public protocol R2ReducerActions: LabelAccessible {
 
 }
 
+public protocol R2ReducerNestedActions: LabelAccessible {
+
+}
+
 public protocol R2Reducer: ObservableObject {
 
     associatedtype R2ReducerActionType: R2ReducerActions

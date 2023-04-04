@@ -12,7 +12,7 @@ public protocol R2WorkflowAction: LabelAccessible {
 }
 
 public protocol R2WorkflowNestedAction: LabelAccessible {
-    
+    // TODO: - Figure out how to implement those nested actions correctly
 }
 
 public protocol R2Workflow: ObservableObject {

@@ -16,7 +16,7 @@ public protocol R2Reactor {
     var state: R2StateType { get }
     var reducer: R2ReducerType { get }
     var workflow: R2WorkflowType { get }
-    var subscribers: [AnyCancellable] { get set }
+    var subscribers: Set<AnyCancellable> { get set }
 
     init(state: R2StateType, reducer: R2ReducerType, workflow: R2WorkflowType)
 }
