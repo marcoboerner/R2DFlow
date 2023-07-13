@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "openhelper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/marcoboerner/OpenHelper.git",
+      "state" : {
+        "revision" : "47bacf412b95ed915de947b2d1114d9e459f2519",
+        "version" : "0.0.3"
+      }
+    }
+  ],
+  "version" : 2
+}
